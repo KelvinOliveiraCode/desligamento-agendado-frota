@@ -42,15 +42,15 @@ cd <repo>
 
 ---
 
-## Capabilities
+## Capacidades
 
-| Capability | Description |
+| Capacidade | Descrição |
 |------------|-------------|
-| Workstation Setup | Automated Windows configuration (apps, settings, features) |
-| Dry-run Safety | Preview all changes before execution with `-Execute` flag |
-| Audit Logging | Every action logged for review and compliance |
-| Modular Design | Independent scripts ,  compose or run individually |
-| No Dependencies | Pure PowerShell 5.1+ ,  no external modules required |
+| Setup de Workstation | Configuração automatizada de Windows (apps, configurações, features) |
+| Segurança Dry-run | Preview de todas as mudanças antes da execução com flag `-Execute` |
+| Log de Auditoria | Toda ação registrada para revisão e conformidade |
+| Design Modular | Scripts independentes ,  compor ou executar individualmente |
+| Sem Dependências | PowerShell 5.1+ puro ,  sem módulos externos |
 
 
 ---
@@ -59,33 +59,33 @@ cd <repo>
 
 ---
 
-## FAQ
+## Perguntas Frequentes
 
 <details>
-<summary><strong>What is this project?</strong></summary>
+<summary><strong>O que é este projeto?</strong></summary>
 
-A PowerShell study/project demonstrating PowerShell automation.
+Um estudo/projeto em PowerShell demonstrando PowerShell automation.
 
 </details>
 
 <details>
-<summary><strong>How do I run it?</strong></summary>
+<summary><strong>Como executar?</strong></summary>
 
-See [Quick Start](#quick-start) for copy-paste commands.
-
-</details>
-
-<details>
-<summary><strong>Are there tests?</strong></summary>
-
-No automated tests in this repository.
+Veja [Início Rápido](#início-rápido) para comandos copiáveis.
 
 </details>
 
 <details>
-<summary><strong>Can I use this in production?</strong></summary>
+<summary><strong>Há testes?</strong></summary>
 
-This is a **study/portfolio project**. Review and harden (auth, persistence, monitoring, etc.) before production use.
+Nenhum teste automatizado neste repositório.
+
+</details>
+
+<details>
+<summary><strong>Posso usar em produção?</strong></summary>
+
+Este é um **projeto de estudo/portfólio**. Revise e endureça (auth, persistência, monitoramento, etc.) antes de usar em produção.
 
 </details>
 
@@ -93,15 +93,15 @@ This is a **study/portfolio project**. Review and harden (auth, persistence, mon
 
 ---
 
-## Documentation
+## Documentação
 
-- **Source Code** ,  Browse the `src/` directory for implementation details
-- **API Reference** ,  N/A
-- **Architecture Diagram** ,  See [architecture.mermaid](docs/architecture.mermaid) (if present)
-- **Changelog** ,  [CHANGELOG.md](CHANGELOG.md) (if present)
-- **Contributing** ,  [CONTRIBUTING.md](CONTRIBUTING.md) (if present)
+- **Código-Fonte** ,  Navegue pelo diretório `src/` para detalhes de implementação
+- **Referência da API** ,  N/A
+- **Diagrama de Arquitetura** ,  Veja [architecture.mermaid](docs/architecture.mermaid) (se presente)
+- **Changelog** ,  [CHANGELOG.md](CHANGELOG.md) (se presente)
+- **Contribuindo** ,  [CONTRIBUTING.md](CONTRIBUTING.md) (se presente)
 
-## License
+## Licença
 
 [MIT](LICENSE) ,  Kelvin Oliveira
 
@@ -109,8 +109,8 @@ This is a **study/portfolio project**. Review and harden (auth, persistence, mon
 
 <div align="center">
 
-**Built with** · PowerShell 5.1+
+**Construído com** · PowerShell 5.1+
 
-**Author** · [Kelvin Oliveira](https://github.com/KelvinOliveiraCode) · [Portfolio](https://kelvinoliveiracode.github.io/portfolio/)
+**Autor** · [Kelvin Oliveira](https://github.com/KelvinOliveiraCode) · [Portfolio](https://kelvinoliveiracode.github.io/portfolio/)
 
 </div>

@@ -44,13 +44,13 @@ cd <repo>
 
 ## Capabilities
 
-| Capability | Description |
+| Capacidade | Descrição |
 |------------|-------------|
-| Workstation Setup | Automated Windows configuration (apps, settings, features) |
-| Dry-run Safety | Preview all changes before execution with `-Execute` flag |
-| Audit Logging | Every action logged for review and compliance |
-| Modular Design | Independent scripts ,  compose or run individually |
-| No Dependencies | Pure PowerShell 5.1+ ,  no external modules required |
+| Setup de Workstation | Configuração automatizada de Windows (apps, configurações, features) |
+| Segurança Dry-run | Preview de todas as mudanças antes da execução com flag `-Execute` |
+| Log de Auditoria | Toda ação registrada para revisão e conformidade |
+| Design Modular | Scripts independentes ,  compor ou executar individualmente |
+| Sem Dependências | PowerShell 5.1+ puro ,  sem módulos externos |
 
 
 ---
