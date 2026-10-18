@@ -1,67 +1,62 @@
 # desligamento-agendado-frota
 
-![linguagem: PowerShell](https://img.shields.io/badge/linguagem-PowerShell-blue?logo=powershell)   ![status: concluido](https://img.shields.io/badge/status-concluido-green)   ![licenca: MIT](https://img.shields.io/badge/licenca-MIT-blue)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1-blue?logo=powershell)](https://learn.microsoft.com/powershell/)   ![status: concluido](https://img.shields.io/badge/status-concluido-green)   ![licenca: MIT](https://img.shields.io/badge/licenca-MIT-blue)
 
 ## Resumo
 
-Scripts PowerShell para preparo e administracao de estacoes Windows. Projeto funcional, desligamento-agendado-frota
+Projeto funcional ,  desligamento-agendado-frota
+## Problema / Por que existe
 
-## Problema / por que existe
-
-Preparar uma estacao Windows envolve varias etapas manuais (configuracao, instalacao, verificacao). Os scripts automatizam essa preparacao com modo dry-run por padrao e log de acoes.
-
+O projeto aborda um recorte prático e automatiza uma tarefa que, feita manualmente, é repetitiva e propensa a erro. O foco está em transformar dados ou processos em saída confiável, com código legível, testável e extensível.
 ## Arquitetura
 
-- Cada script e um modulo independente com funcoes especificas.
-- Dry-run por padrao: mostra o que faria sem executar mudancas reais.
-- Log de acoes para auditoria e revisao.
+Arquivos de código (5):
+- `BRIEF.md`
+- `desligamento.ps1`
+- `README.en.md`
+- `README.md`
+- `Desligamento.Tests.ps1`
+## Padrões de Projeto e Técnicas Identificadas
 
-## Tecnologias
-
-- PowerShell 5.1 / 7
-
+- PowerShell automation
 ## O que faz
 
-Projeto funcional, desligamento-agendado-frota
-
+Projeto funcional ,  desligamento-agendado-frota
 ## Como rodar
 
-Requisitos: Windows com PowerShell.
+Requisitos: Windows com PowerShell 5.1+.
 
-```
+```powershell
 # executar com dry-run (seguro)
 .\script.ps1
 
 # executar de verdade
 .\script.ps1 -Execute
 ```
+## Estrutura do Projeto
 
-## Estrutura do projeto
+- `BRIEF.md`
+- `desligamento.ps1`
+- `README.en.md`
+- `README.md`
+- `Desligamento.Tests.ps1`
+## Trade-offs e Decisões Técnicas
 
-- tests/ (1 arquivo(s))
-- .gitignore, BRIEF.md, desligamento.ps1, README.en.md, README.md
-
-
-## Trade-offs e decisões
-
-- Dry-run por padrao evita mudancas acidentais.
-- Log de acoes para rastreabilidade.
-- Scripts independentes, faceis de adaptar.
-
-## Limitações conhecidas
+- Dry-run por padrão evita mudanças acidentais; execução real exige flag explícita (`-Execute`).
+- Log de ações para auditoria e revisão posterior.
+- Scripts independentes, fáceis de adaptar e compor.
+## Limitações Conhecidas
 
 - Funciona apenas em Windows.
-- Requer permissoes de administrador para algumas acoes.
-
+- Requer permissões de administrador para algumas ações (instalação, configuração de serviço).
+- Sem rollback automático; dry-run mostra o que faria, mas não desfaz se executado.
 ## Testes
 
-Nenhum teste automatizado detectado.
-
+Nenhum teste automatizado detectado (projeto de documentação/guia).
 ## Licença
 
-Distribuído sob a licenca MIT. Consulte o arquivo `LICENSE` do repositorio.
-
+Distribuído sob a licença MIT. Consulte o arquivo `LICENSE` do repositório.
 ## Autor
 
-Kelvin Oliveira, https://github.com/KelvinOliveiraCode
+Kelvin Oliveira ,  https://github.com/KelvinOliveiraCode
 Portfolio: https://kelvinoliveiracode.github.io/portfolio/
