@@ -1,62 +1,116 @@
 # desligamento-agendado-frota
 
-[![PowerShell](https://img.shields.io/badge/PowerShell-5.1-blue?logo=powershell)](https://learn.microsoft.com/powershell/)   ![status: done](https://img.shields.io/badge/status-done-green)   ![license: MIT](https://img.shields.io/badge/license-MIT-blue)
+<div align="center">
 
-## Summary
+**English** · [Português (Brasil)](README.md)
 
-Projeto funcional ,  desligamento-agendado-frota
-## Problem / Why it exists
+</div>
 
-The project addresses a practical scope and automates a task that, done manually, is repetitive and error-prone. The focus is on turning data or processes into reliable output, with readable, testable, and extensible code.
-## Architecture
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?style=flat-square&logo=powershell)](https://learn.microsoft.com/powershell/) [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?style=flat-square&logo=windows)](https://www.microsoft.com/windows) [![MIT License](https://img.shields.io/badge/License-MIT-f4c430?style=flat-square)](LICENSE)
 
-Code files (5):
-- `BRIEF.md`
-- `desligamento.ps1`
-- `README.en.md`
-- `README.md`
-- `Desligamento.Tests.ps1`
-## Design Patterns and Techniques Identified
+### Projeto funcional ,  desligamento-agendado-frota
 
-- PowerShell automation
-## What it does
+---
+
+## What it is
 
 Projeto funcional ,  desligamento-agendado-frota
-## How to run
 
-Requirements: Windows with PowerShell 5.1+.
+---
+
+## Quick Start
 
 ```powershell
-# run with dry-run (safe)
+# Clone and enter
+git clone https://github.com/KelvinOliveiraCode/<repo>.git
+cd <repo>
+
+# Dry-run (safe preview)
 .\script.ps1
 
-# run for real
+# Execute for real
 .\script.ps1 -Execute
 ```
-## Project Structure
 
-- `BRIEF.md`
-- `desligamento.ps1`
-- `README.en.md`
-- `README.md`
-- `Desligamento.Tests.ps1`
-## Trade-offs and Technical Decisions
+## How it works
 
-- Dry-run by default avoids accidental changes; real execution requires explicit flag (`-Execute`).
-- Action logging for auditing and later review.
-- Independent scripts, easy to adapt and compose.
-## Known Limitations
+**Modular script architecture** ,  each script is an independent module:
+- **Dry-run by default** ,  safe preview before execution
+- **Explicit `-Execute` flag** for real changes
+- **Action logging** for audit trail
+- **No external dependencies** ,  pure PowerShell
 
-- Windows only.
-- Requires administrator permissions for some actions (installation, service configuration).
-- No automatic rollback; dry-run shows what would happen but does not undo if executed.
-## Tests
+---
 
-No automated tests detected (documentation/guide project).
+## Capabilities
+
+| Capability | Description |
+|------------|-------------|
+| Workstation Setup | Automated Windows configuration (apps, settings, features) |
+| Dry-run Safety | Preview all changes before execution with `-Execute` flag |
+| Audit Logging | Every action logged for review and compliance |
+| Modular Design | Independent scripts ,  compose or run individually |
+| No Dependencies | Pure PowerShell 5.1+ ,  no external modules required |
+
+
+---
+
+
+
+---
+
+## FAQ
+
+<details>
+<summary><strong>What is this project?</strong></summary>
+
+A PowerShell study/project demonstrating PowerShell automation.
+
+</details>
+
+<details>
+<summary><strong>How do I run it?</strong></summary>
+
+See [Quick Start](#quick-start) for copy-paste commands.
+
+</details>
+
+<details>
+<summary><strong>Are there tests?</strong></summary>
+
+No automated tests in this repository.
+
+</details>
+
+<details>
+<summary><strong>Can I use this in production?</strong></summary>
+
+This is a **study/portfolio project**. Review and harden (auth, persistence, monitoring, etc.) before production use.
+
+</details>
+
+
+
+---
+
+## Documentation
+
+- **Source Code** ,  Browse the `src/` directory for implementation details
+- **API Reference** ,  N/A
+- **Architecture Diagram** ,  See [architecture.mermaid](docs/architecture.mermaid) (if present)
+- **Changelog** ,  [CHANGELOG.md](CHANGELOG.md) (if present)
+- **Contributing** ,  [CONTRIBUTING.md](CONTRIBUTING.md) (if present)
+
 ## License
 
-Distributed under the MIT License. See the `LICENSE` file in this repository.
-## Author
+[MIT](LICENSE) ,  Kelvin Oliveira
 
-Kelvin Oliveira ,  https://github.com/KelvinOliveiraCode
-Portfolio: https://kelvinoliveiracode.github.io/portfolio/
+---
+
+<div align="center">
+
+**Built with** · PowerShell 5.1+
+
+**Author** · [Kelvin Oliveira](https://github.com/KelvinOliveiraCode) · [Portfolio](https://kelvinoliveiracode.github.io/portfolio/)
+
+</div>
