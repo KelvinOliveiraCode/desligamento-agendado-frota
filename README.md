@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**English** · [Português (Brasil)](README.md)
+[English](README.en.md) · **Português (Brasil)**
 
 </div>
 
@@ -18,27 +18,27 @@ Projeto funcional ,  desligamento-agendado-frota
 
 ---
 
-## Quick Start
+## Início Rápido
 
 ```powershell
-# Clone and enter
+# Clone e entre
 git clone https://github.com/KelvinOliveiraCode/<repo>.git
 cd <repo>
 
-# Dry-run (safe preview)
+# Dry-run (visualização segura)
 .\script.ps1
 
-# Execute for real
+# Execute de verdade
 .\script.ps1 -Execute
 ```
 
 ## Como funciona
 
-**Modular script architecture** ,  each script is an independent module:
-- **Dry-run by default** ,  safe preview before execution
-- **Explicit `-Execute` flag** for real changes
-- **Action logging** for audit trail
-- **No external dependencies** ,  pure PowerShell
+**Arquitetura de scripts modulares** ,  cada script é um módulo independente:
+- **Dry-run por padrão** ,  visualização segura antes da execução
+- **Flag explícita `-Execute`** para mudanças reais
+- **Log de ações** para rastreabilidade
+- **Sem dependências externas** ,  PowerShell puro
 
 ---
 

@@ -34,11 +34,11 @@ cd <repo>
 
 ## How it works
 
-**Modular script architecture** ,  each script is an independent module:
-- **Dry-run by default** ,  safe preview before execution
-- **Explicit `-Execute` flag** for real changes
-- **Action logging** for audit trail
-- **No external dependencies** ,  pure PowerShell
+**Arquitetura de scripts modulares** ,  cada script é um módulo independente:
+- **Dry-run por padrão** ,  visualização segura antes da execução
+- **Flag explícita `-Execute`** para mudanças reais
+- **Log de ações** para rastreabilidade
+- **Sem dependências externas** ,  PowerShell puro
 
 ---
 
